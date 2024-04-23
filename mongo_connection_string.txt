@@ -1,0 +1,3 @@
+mongodb+srv://VolunteeringApp:<password>@volunteering.glyuuhq.mongodb.net/
+
+Replace <password> with the password for the VolunteeringApp user. Ensure any option params are URL encoded.
