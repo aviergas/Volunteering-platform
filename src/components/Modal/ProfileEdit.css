@@ -1,0 +1,52 @@
+.modal::backdrop {
+  background: hsl(0 0% 0% / 50%);
+}
+
+.modal {
+  max-width: 20rem;
+  padding: 2rem;
+  border: 0;
+  border-radius: 0.5rem;
+  position: relative;
+  border-radius: 1rem;
+  position: fixed;
+  box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5rem 0.25rem;
+  border: 1px solid #ccc;
+}
+
+.modal-close-btn {
+  font-size: 0.75em;
+  position: absolute;
+  top: 0.4em;
+  right: 0.4em;
+  border-radius: 0.35rem;
+  /* background:lightcoral;
+  color:white; */
+}
+
+.form-row + .form-row {
+  margin-top: 1rem;
+}
+
+.form-row label,
+.form-row input,
+.form-row select,
+.form-row button {
+  width: 100%;
+  display: block;
+}
+
+.msg-box {
+  padding: 1em;
+  max-width: 400px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 0.5em;
+  border: 2px solid darkgreen;
+  background: lightgreen;
+  color: darkgreen;
+}
+
+.input-align-center{
+  text-align: center;
+}
